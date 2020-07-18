@@ -1,10 +1,7 @@
 
 
 import React, { useRef, useEffect } from 'react';
-// import logo from './logo.svg';
 import './App.css';
-// import useWebAnimations from "@wellyshen/use-web-animations";
-// import { scryRenderedDOMComponentsWithClass } from 'react-dom/test-utils';
 
 function App() {
   const firstBackground = useRef(null);
@@ -72,17 +69,7 @@ function App() {
       }
     }
 
-    // setInterval(() => {
-    //   if(aliceAnimationMovement.playbackRate > .4) {
-    //     aliceAnimationMovement.playbackRate *= 0.9;
-    //   }
-    // })
-
-    // const goFaster = () => {
-    //   aliceAnimationMovement.playbackRate *= 1.1;
-    //   console.log(aliceAnimationMovement.playbackRate);
-    // }
-
+   
     setInterval(() => {
       if (aliceAnimationMovement.playbackRate > .4) {
         aliceAnimationMovement.playbackRate *= .9;
